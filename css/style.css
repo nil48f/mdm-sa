@@ -1,0 +1,15 @@
+body {
+    background-image: url("../images/background.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    /*background-color: black;*/
+}
+
+#maingrid {
+    display: grid;
+    background-color: bisque;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: 20%, 80%;
+    grid-template-rows: auto;
+}
