@@ -27,3 +27,7 @@ body {
     border: solid black 2px;
     border-top: none;
 }
+
+.logo img{
+    border-radius: 20px;
+}
