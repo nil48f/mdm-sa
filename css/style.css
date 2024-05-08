@@ -3,13 +3,27 @@ body {
     background-size: cover;
     background-attachment: fixed;
     /*background-color: black;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 #maingrid {
-    display: grid;
     background-color: bisque;
-    margin-left: 10%;
-    margin-right: 10%;
-    grid-template-columns: 20%, 80%;
-    grid-template-rows: auto;
+    width: 800px;
+    padding: 10px 20px;
+    border: solid black 2px;
+    border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cuerpo {
+    background-color: white;
+    width: 800px;
+    padding: 10px 20px;
+    border: solid black 2px;
+    border-top: none;
 }
