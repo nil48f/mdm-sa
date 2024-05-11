@@ -9,25 +9,56 @@ body {
     flex-direction: column;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+.recuadro {
+    width: 800px;
+    border: solid black 2px;
+    display: flex;
+    flex-direction: column;
+}
 
 #maingrid {
     background-color: bisque;
-    width: 800px;
     padding: 10px 20px;
-    border: solid black 2px;
-    border-bottom: none;
     display: flex;
     justify-content: space-between;
 }
 
 #cuerpo {
     background-color: white;
-    width: 800px;
     padding: 10px 20px;
-    border: solid black 2px;
-    border-top: none;
 }
 
 .logo img{
     border-radius: 20px;
+}
+
+#posts {
+    padding: 10px 20px;
+    background-color: rgb(253, 197, 129);
+    text-align: center;
+}
+
+#posts img {
+    width: 350px;
+    border-radius: 20px;
+}
+
+.publicaciones {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+#posts p{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+}
+
+.publicaciones:nth-child(3) {
+    border-top: solid black 1px;
+    
 }
